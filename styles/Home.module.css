@@ -1,3 +1,73 @@
+/* About page */
+
+.carousel {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+
+}
+
+.carouseltxt {
+  background-color: rgba(16, 46, 53, 0.5);
+  padding: 10px;
+  margin: 0px 50px;
+}
+
+/* home page */
+.homeCont {
+  background-image: url(/background-images/backgroundMountain.jpg);
+  background-size: cover;
+}
+
+.mainCont {
+  color: var(--primary-color);
+  margin: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: left;
+}
+
+.contentSide {
+  width: 60%;
+  
+}
+
+.line {
+  background-color: var(--secondary-color);
+  border: none;
+  height: 3px;
+  width: 250px;
+  margin: 10px;
+ }
+
+ .buttonCont {
+   display:flex;
+   flex-direction:row;
+
+   padding-top: 20px;
+ }
+ .button {
+   padding: 3px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 4px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.downArrow {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  
+}
+
+
+
 .main {
   display: flex;
   flex-direction: column;
